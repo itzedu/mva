@@ -1,0 +1,7 @@
+<% content_for(:title, "Edit #{@player.first_name}") %>
+
+<h1>Edit <%= @player.first_name %>'s information</h1>
+
+<%= render partial: "players/form" %>
+
+<%= link_to "Home Page", root_path %>
